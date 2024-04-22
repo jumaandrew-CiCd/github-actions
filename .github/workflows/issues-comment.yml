@@ -30,7 +30,7 @@ jobs:
     - name: Install GitHub CLI
       run: |
         sudo apt update
-        sudo apt install gh
+        sudo apt install gh -y
 
     - name: create comment with api
       run: |
